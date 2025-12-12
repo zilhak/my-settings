@@ -1,0 +1,5 @@
+[alias]
+    logc = log --oneline --graph
+    logca = logf --all
+	logf = log --pretty=format:'%C(yellow)%h %Cgreen%ad %Cblue%an %Creset%s' --date=format:'%Y-%m-%d %H:%M:%S' --abbrev-commit
+	logfa = logf --all
